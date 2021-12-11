@@ -18,7 +18,7 @@ stages:
   - job: Build
     displayName: Build
     pool:
-      vmImage: ubuntu-latest
+      name: deafult
     steps:
     - task: Docker@2
       displayName: Build an image
